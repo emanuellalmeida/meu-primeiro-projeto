@@ -1,0 +1,360 @@
+html{
+    background-color:#6F72B4;
+    height: 1000px;
+    overflow: scroll;
+}
+
+
+
+.logo{
+    z-index: 2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: fixed;
+    left: 32px;
+    top: 25px;
+    padding: 0;
+
+}
+
+.linha{
+    z-index: 1;
+    border-top: 85px solid;
+    color: #6F72B4;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.linha1{
+    z-index: 2;
+    border-top: 3px solid;
+    color:  #00033D;
+    position: fixed;
+    top: 81px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.linha2{
+    z-index: 1;
+    border-top: 3px solid;
+    color: #68708a;
+    position: fixed;
+    top: 83px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.logo_nuell{
+    border-top: 50px solid;
+    color: #00033D; 
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    width: 150px;
+    border-radius: 10px;
+    z-index: 1;
+    margin: auto;
+    
+}
+
+.meu_nome{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;;
+    position: absolute;
+    top: 180px;
+    left: 87px;
+    padding: 6px;
+    margin: 0;
+    background-color: #00033D;
+    border-radius: 10px;
+    
+}
+
+.minha_foto img{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 230px;
+    left: 213px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.quadrado_da_foto{
+    z-index: -1;
+    background-color:#00033D;
+    width: 325px;
+    height: 350px;
+    position:absolute;
+    left: 130px;
+    top: 310px;
+    border-radius: 10px;
+    
+}
+
+.quem_sou_eu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 910px;
+    top: 217px;
+}
+
+.quadrado_abaixo_do_sou_eu{
+        z-index: -1;
+        background-color:#00033D;
+        width: 680px;
+        height: 350px;
+        position: absolute;
+        left: 800px;
+        top: 310px;
+        border-radius: 10px;
+}
+
+.quadrado_quem_sou_eu{
+    z-index: -1;
+        background-color:#00033D;
+        width: 180px;
+        height: 35px;
+        position: absolute;
+        left: 900px;
+        top: 214px;
+        border-radius: 10px;
+}
+
+.quadrado_rodape{
+        z-index: -1;
+        background-color:#00033D;
+        border-radius: 10px;
+        position:relative;
+        width: 1522px;
+        height: 160px;
+        left: 20px;
+        top: 746px;
+        
+}
+
+.informações{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 400px;
+}
+
+.sobre_mim{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    left: 820px;
+    top: 340px;
+}
+
+.icone_html img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 170px;
+    top: 540px;
+}
+
+.icone_css img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 330px;
+    top: 540px;
+}
+
+.logo_instagram img{
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    left: 42px;
+    top:840px;
+}
+
+.logo_whatsapp img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 340px;
+    top:840px;
+}
+
+.logo_linkedin img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 643px;
+    top:840px;
+}
+
+.logo_github img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 946px;
+    top:840px;
+}
+
+.local{
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 780px;
+    left: 95px;
+}
+
+.globo_local img{
+    position:absolute;
+    left: 60px;
+    top:765px;
+    width: 30px;
+    height: 30px;
+}
+
+.insta_quadrado{
+    background-color:#ffffff;
+    border-radius: 10px;
+    position:absolute;
+    width: 200px;
+    height: 43px;
+    top: 855px;
+    left: 112px;
+
+}
+
+.whats_quadrado{
+    background-color:#ffffff;
+    border-radius: 10px;
+    position:absolute;
+    width: 200px;
+    height: 43px;
+    top: 855px;
+    left: 413px;
+}
+
+.linked_quadrado{
+    background-color:#ffffff;
+    border-radius: 10px;
+    position:absolute;
+    width: 200px;
+    height: 43px;
+    top: 855px;
+    left: 716px;
+}
+
+.guithub_quadrado{
+    background-color:#ffffff;
+    border-radius: 10px;
+    position:absolute;
+    width: 200px;
+    height: 43px;
+    top: 855px;
+    left: 1022px;
+}
+
+.comentarios{
+    color: gray;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 827px;
+    left: 1345px;
+}
+.feedback{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 790px;
+    left: 1330px;
+}
+
+.comentarios_quadrado{
+    background-color:#ffffff;
+    border-radius: 10px;
+    position:absolute;
+    width: 200px;
+    height: 43px;
+    top: 820px;
+    left: 1310px;
+}
+
+.link_insta{
+    z-index: 3;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 866px;
+    left: 153px;
+}
+
+.link_insta:hover{
+    color: rgb(255, 72, 0);
+}
+
+.link_whats{
+    z-index: 3;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 866px;
+    left: 440px;
+}
+
+.link_whats:hover{
+    color: green;
+}
+
+.link_linked{
+    z-index: 3;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 866px;
+    left: 722px;
+}
+
+.link_linked:hover{
+    color: rgb(65, 65, 209);
+}
+
+.link_github{
+    z-index: 3;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 866px;
+    left: 1052px;
+}
+
+.link_github:hover{
+    color: rgb(73, 29, 122);
+}
+
+
+
